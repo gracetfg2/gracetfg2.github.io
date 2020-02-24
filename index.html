@@ -1,109 +1,168 @@
+<!--
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="favicon.icon" sizes="128x128" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Personal Website of Grace Yen, Yu-Chun Yen, HCI/UX Researcher, PhD@UIUC, MS@NTU, Computer Science">
     <meta name="keywords" content="HCI Researcher, UX Researcher, UX/UI, UIUC, Adobe, PhD">
     <meta name="author" content="Grace Yu-Chun Yen">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type="image/png" href="favicon.icon" sizes="128x128" />
+    
     <title>Y. Grace Yen | UIUC </title>
 
-<!-- Bootstrap core CSS -->
 
-<link href="dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Reem+Kufi" rel="stylesheet">
-<link href=" http://fonts.googleapis.com/css?family=Codystar|Raleway|Open+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bungee|Merriweather+Sans|Reem+Kufi" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/index.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- Global stylesheets -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link href="css/style.css" rel="stylesheet">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- <link href="css/twenty-twelve.css" rel="stylesheet">-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-90850337-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    <!-- Customized stylesheets -->
+    <link href="css/site.css" rel="stylesheet">
 </head>
 
-<body class="center">
-  <div class="container" >  
-    <!--Intro section-->
-    <div class="row" style="padding-top:60px"> 
-            <div class="col-md-4">
-                <img width="200px" src="photo/profile.jpg" class="img-thumbnail center-block" width="250">
-            </div>
+<body id="page-top">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="photo/profile.jpg" alt="">
+        </span>
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#publication">Publication</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                </li>
 
-            <div class="col-md-8">
-                <h1 id="name">Grace (Yu-Chun) Yen</h1>
-                <p>
-                    <a style='font-size: 16px' id="email" href="mailto:yyen4@illinois.edu" target="_blank">Email</a> / 
-                    <a style='font-size: 16px' id="cv" href="grace_cv.pdf" target="_blank">CV</a> /
-                    (217) 979-6380
-                </p>                
-                <p id='bio-middle'>  Ph.D. Candidate <br>
-                 Department of Computer Science
-                 <br> <a href="http://hci.cs.illinois.edu/" target="_blank">Human-Computer Interaction Group</a>
-                 <br><a href="https://cs.illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a><br>          
-                </p>
-
-                <p>
-                  <a href="https://www.linkedin.com/in/yu-chun-grace-yen-1a278a6a/" target="_blank"><img width="40px" src="photo/linkedin.png"></a>
-
-                <a href="https://www.facebook.com/grace.yen3" target="_blank"><img width="40px" src="photo/facebook.png"></a>
-                <a href="https://www.instagram.com/gracetfg2/?hl=en" target="_blank"><img width="40px" src="photo/instagram.png"></a>
-                <a href="https://github.com/gracetfg2" target="_blank"><img width="40px" src="photo/github.png"></a></p>
+            </ul>
 
 
-                
-            </div>
         </div>
-        <hr>
-    </div>
+
+         <ul class="list-inline list-social-icons mb-0">
+                 
+
+                  <li class="list-inline-item">
+                      <a href="https://scholar.google.com/citations?user=neA0_u8AAAAJ&hl=en" target="_blank">
+                  <span class="fa-stack fa-sm">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                     <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                  </li>  
+
+                  <li class="list-inline-item">
+                      <a href="https://github.com/gracetfg2" target="_blank">
+                  <span class="fa-stack fa-sm">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/yu-chun-grace-yen-1a278a6a/" target="_blank">
+                  <span class="fa-stack fa-sm">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                  </li>
+                  
+                  <li class="list-inline-item">
+                      <a href="https://www.facebook.com/grace.yen3" target="_blank">
+                  <span class="fa-stack fa-sm">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="#">
+                  <span class="fa-stack fa-sm">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                  </li>
+                  
+                
 
 
-   <!--     I am a final-year CS PhD student studying Human-Computer Interaction at UIUC, working with <a href="http://orchid.cs.illinois.edu/people/index.html" target="_blank">Professor Brian Bailey</a> on the topic of crowdsourcing and creative design process. My research focuses on how to connect designers with limited sources to the potential stakehoders throughout the design process. Within the scope, I built a plaform, CRAFT, that enables novice designers to gather feedback from multiple crowd genres including social networks, online communities, and task markets, and at different design stages. The platform has been used by 200+ designers for collecting feedback from 2000+ feedback providers, and has been deployed in the User-Interface Design class at UIUC for connecting students with online crowds . My current research addressing another challenging problem of how to help designers interpret
-feedback more deeply when that feedback is gathered outside the structured environment of aclassroom or work setting. 
 
-    </p>
+              </ul>
+    </nav>
 
-       
+    <div class="container-fluid p-0">
 
--->
- <div class="row" style="margin-top: 15px">
-    <div class="col-md-12">
-        <p id='bio-sketch'>   
-            I am a final-year Ph.D. student in the <a href="http://cs.illinois.edu/" target="_blank">Computer Science</a> Department at the <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>, working with <a href="http://orchid.cs.illinois.edu/people/bailey/index.html" target="_blank">Prof. Brian Bailey</a> in the <a href="http://hci.cs.illinois.edu/" target="_blank">Human-Computer Interaction</a> group. My research interests include creativity support tools, online feedback exchange, data visualization, and crowdsourcing.</p>
+    <!--====================================================
+                        ABOUT
+    ======================================================-->
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+          <div class="my-auto" >
+              <h2 class="mb-0">Grace (Yu-Chun) 
+                <span class="text-primary">Yen</span>
+              </h2>
+              <div class="subheading mb-5">Ph.D. in Computer Science at the University of Illinois at Urbana-Champaign. </div>
+              <p class="mb-5" style="max-width: 800px;" >
+                 Hi! I am a final-year Ph.D. student in the <a href="http://cs.illinois.edu/" target="_blank">Computer Science</a> Department at the <a href="http://illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a>. working with <a href="http://orchid.cs.illinois.edu/people/bailey/index.html" target="_blank">Prof. Brian Bailey</a> in the <a href="http://hci.cs.illinois.edu/" target="_blank">Human-Computer Interaction</a> group. My research interests include creativity support tools, online feedback exchange, data visualization, and crowdsourcing.</p>
 
-   
-            <p id='bio-sketch'> Before I came to UIUC, I earned my Master of Science degree with a concentration of <a href="https://robotlab.csie.ntu.edu.tw/" target="_blank">Artificial Intelligence</a> from <a href="https://www.ntu.edu/" target="_blank">National Taiwan University</a>. My master's these, advised by Dr. Li-Chen Fu, won the Best Master's Thesis award from <em>Taiwanese Association for Artificial Intelligence</em>, and receives a patent in Taiwan.</p>
-    </div>
+             <p class="mb-5" style="max-width: 800px;" >
+            Before I came to UIUC, I earned my Master of Science degree with a concentration of <a href="https://robotlab.csie.ntu.edu.tw/" target="_blank">Artificial Intelligence</a> from <a href="https://www.ntu.edu/" target="_blank">National Taiwan University</a>. My master's these, advised by Dr. Li-Chen Fu, won the Best Master's Thesis award from <em>Taiwanese Association for Artificial Intelligence</em>, and receives a patent in Taiwan.</p>
+            
+          </div>
+      </section>
 
-</div>
-    <div class="row">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">     
-        <p id="section-title">PUBLICATIONS</p>
-    </div>
+    <!--====================================================
+                        Publication
+    ======================================================-->      
+      <section class="resume-section p-3 p-lg-5 " id="publication">
+          <div class="row my-auto">
+              <div class="col-12">
+                <h3 class="">Publication (Peer-reviewed)</h3>
+              </div>
+             
+            <table class="table table-condensed small" id='pub-table'> 
 
-    <div class="row" id="pub-list">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-            <table class="table table-condensed" id='pub-table'> 
+                <tr>
+                    <td>C.8 </td>
+                    <td><b>Yu-Chun Grace Yen</b>, Joy O. Kim, and Brian P. Bailey.<br> Decipher: An Interactive Visualization Tool for Interpreting Unstructured Design Feedback from Multiple Providers. <br><em>ACM Conference on Human Factors in Computing Systems</em> (CHI ‘20).</td>
 
+
+                </tr>
+
+                <tr>
+                    <td>C.7 </td>
+                    <td> Chi-Hsien Yen, <b>Yu-Chun Grace Yen</b>, and Wai-Tat Fu. An Intelligent Assistant for Mediation Analysis in
+                    Visual Analytics. <em>ACM Conference on Creativity and Cognition (IUI ‘19)</em> </td>
+                </tr>
                 <tr>
                     <td>C.6 </td>
                     <td> <b>Yu-Chun Yen</b>, Steven P. Dow, Elizabeth Gerber and Brian P. Bailey.<br> Listen to Others, Listen to Yourself: Combining Feedback Review and Reflection to Improve Iterative Design. <em> <br>ACM Conference on Creativity and Cognition (C&C) 2017</em>
@@ -138,172 +197,294 @@ feedback more deeply when that feedback is gathered outside the structured envir
                     <td> <b>Yu-Chun Yen</b>, Ching Hu Lu, Yi Chung Cheng, Jing Siang Chen, Li Chen Fu.<br> Towards an Evidence-Based and Context-Aware Elderly Caring System Using Persuasive Engagement.<em> <br>International Conference on Human-Computer Interaction (HCII) 2011</em>[<a href="paper/c1_grace.pdf" target="_blank">pdf</a>]</td>
                 </tr>
 
- 
-
-
             </table>
-           
-                <hr>
-        </div>
+             
+             
+              <div class="col-12">
+                <h3 class="">Patent</h3>
+              </div>
+              <table class="table table-condensed small" id='pub-table'> 
+                <tr>
+                    <td>P.1 </td>
+                    <td> <b>Yu-Chun Yen</b>, Li-Chen Fu, Tsung-Han Yang, Fang-Cheng Liu, Chun-Feng Liao. An information processing system based on multi-layer inference architecture. Taiwan Patent ID: I486914. June, 2015-May, 2032</td>
+                </tr>
+              </table> 
+            </div>
 
-        </div>
 
 
-    <div class="row" id="pub-list">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">    
-            <p id="section-title">PATENT</p>
-            <b>Yu-Chun Yen</b>, Li-Chen Fu, Tsung-Han Yang, Fang-Cheng Liu, Chun-Feng Liao. An information processing system based on multi-layer inference architecture. Taiwan Patent ID: I486914. June, 2015-May, 2032
-                <hr>  
-        </div>
+          </div>
+      </section>
+
+
+   
+    <!--====================================================
+                           Education
+    ======================================================-->       
+      
+
+
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+          <div class="row my-auto">
+              <div class="col-12">
+                <h3 class="">Education</h3>
+              </div> 
+              
+               <table class="table table-condensed" id='pub-table'> 
+                <tr><td><b>University of Illinois at Urbana-Champaign | </b>  Ph.D. in Computer Science 
+                  <br><span class="text-primary"><a href="https://cs.illinois.edu/research/interactive-computing" target="_blank">Human-Computer Interaction (Interactive Computing)</a></span> 
+                 <span class="small"> 
+                  <br><b>Dissertation Title</b> | Turning feedback to actions through reflection, paraphrasing, and visualization.
+                  <br><b>Committee</b> | Dr. <a href="https://cs.illinois.edu/directory/profile/bpbailey" target="_blank">Brian P. Bailey</a> (Advisor@UIUC), Dr. <a href="https://cs.illinois.edu/directory/profile/bpbailey" target="_blank">Karrie G. Karahalios</a> (UIUC), Dr. <a href="https://cs.illinois.edu/directory/profile/bpbailey" target="_blank">Steven Dow </a> (UCSD), Dr. <a href="https://cs.illinois.edu/directory/profile/bpbailey" target="_blank">Joy O. Kim</a> (Adobe Research). 
+                  <br><span class="badge badge-pill badge-secondary">Keywords</span> crowdsourced feedback, creativity support tools, data visulization, creative workflow.
+                  <br><span class="badge badge-pill badge-secondary">Methods</span> interview, survey, experimental design, prototying, statistic analysis, qualitative coding. 
+
+                </td></tr>
+
+                 <tr><td><b> National Taiwan University</b> | M.S in Computer Science
+                  <br><span class="text-primary"><a href="http://140.112.90.179/en/personal.php?id=2" target="_blank">Intelligent Robot and Automation Lab (Smart Home Group)</a></span>
+                  <span class="small"> 
+                  <br><b>Master's Thesis</b> | Human-centric and situation-aware pervasive healthcare system in the hospital for elderly People.
+                  <br><b>Committee</b> | Dr. <a href="https://www.researchgate.net/profile/Li-Chen_Fu" target="_blank">Li-Chun Fu</a> (Advisor@NTU), Dr. <a href="https://scholars.lib.ntu.edu.tw/cris/rp/rp06227" target="_blank">Chiung-Nien Chen</a> (NTU Medicine), Dr. <a href="https://scholars.lib.ntu.edu.tw/cris/rp/rp06633" target="_blank">Cheryl Chia-Hui Chen </a> (NTU Nursing), Dr. <a href="http://cilab.csie.ncu.edu.tw/" target="_blank"> Mu-Chun Su</a> (NCU HCI). 
+                  <br><span class="badge badge-pill badge-secondary">Keywords</span> pervasive computing, activity recognition, healthcare, artificial intellegence, persuasive technology.
+                  <br><span class="badge badge-pill badge-secondary">Methods</span> field observation, experimental design, prototying, statistic analysis, qualitative coding. 
+                </span>
+
+                </td></tr>
+                <tr><td><b>National Taiwan Normal University</b> | B.S in Computer Science 
+                  <br><span class="text-primary"><a href="http://www.csie.ntnu.edu.tw/~violet/" target="_blank">Computer Vision and Image Understanding Lab</a></span>
+                  <span class="small"> 
+                  <br><b>Senior Thesis</b> | Vision-based Gymnastics Motion Recognition System.
+                  <br><b>Advisor</b> | Dr. <a href="http://w1.csie.ntnu.edu.tw/members/bio.php?PID=16" target="_blank">Chiung-Yao Fang</a></span>
+                </td></tr>
+
+              </table>
+          </div>
+      </section> 
+
+    <!--====================================================
+                          PROJECTS
+    ======================================================--> 
+    
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+          <div class="row my-auto ">
+              <div class="col-12">
+                <h3 class="">Projects (Selected)</h3>
+              </div> 
+
+            <table class="table table-condensed" id='pub-table'> 
+              <tr class="small" id="project-entry">
+                  <td>
+                    <a href="photo/decipher.png" target="_blank"><img style="margin-top:20px" src="photo/decipher.png" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td>      
+                     <b id="project-title">Decipher: An Interactive Visualization Tool for Interpreting Unstructured Design Feedback from Multiple Providers</b>
+                     <div><em>ACM CHI'20</em></div>
+                      <p id="project-content">In creative work such as design, writing, and engineer, intreprting feedback from diverse audiences is hard because the feedback can vary in focus, differ in structure, and contradict each other. In this work, we conducted a formative study identifying the common strategies and criteria that experts employ when interpreting feedback from multiple providers. Based on the findings, we created a new tool (Decipher) that enables designers to visualize and navigate a collection of feedback using its topic and sentiment structure. We found that Decipher helped users feel less overwhelmed during feedback interpretation tasks and better attend to critical issues and conflicting opinions compared to using a typical document-editing tool.</p>
+                    <p>
+                      <span class="badge badge-pill badge-success">screener survey</span>
+                     <span class="badge badge-pill badge-success">interview</span>
+                      <span class="badge badge-pill badge-success">think-aloud approach</span>
+                      <span class="badge badge-pill badge-light">qualitative coding</span>  
+                      <span class="badge badge-pill badge-info">within-subjects experiments</span>
+                       <span class="badge badge-pill badge-info">comparative survey</span> 
+                      <span class="badge badge-pill badge-light">one-sampled t-test</span>  
+                   </p>
+                  </td>
+              </tr>
+
+             <tr class="small" id="project-entry">
+                  <td>
+                    <a href="photo/crowd.png" target="_blank"><img style="margin-top:20px" src="photo/crowd.png" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">Combining Feedback Review and Reflection to Improve Iterative Design</b>
+                     <div><em>ACM CC'17</em></div>
+                      <p id="project-content">For feedback to be effective, it requires the recipient to interpret, learn, and act on it. To help users better translate feedback into actions, we draw inspirations from learning and design by developing a lightweight reflection activity and testing its placement relative to feedback review for iterative design. We found that reflection after feedback review led to the largest increase in the revised design quality and without designers over-estimating the amount of improvement they made. Designers reported that the reflection activity helped them recall their design goals, question their choices, and plan and prioritize their revisions. This work offers deeper empirical understanding of how ordering reflection and feedback review affects designers’ performance and perceptions for acreative design task. We also offer implications for implementing a reflection activity in feedback platforms to encourage its adoption.</p>
+                    <p>
+                      <span class="badge badge-pill badge-success">online user study</span>
+                      <span class="badge badge-pill badge-info">between-subjects experiments</span>
+                      <span class="badge badge-pill badge-success">task analysis (logged data analysis)</span>
+                      <span class="badge badge-pill badge-success">survey</span>
+                      <span class="badge badge-pill badge-light">qualitative coding</span> 
+                      <span class="badge badge-pill badge-light">ANOVA + post-hoc tests</span>  
+                   </p>
+                  </td>
+              </tr>
+
+              <tr class="small" id="project-entry">
+                  <td>
+                    <a href="photo/reflection.jpg" target="_blank"><img style="margin-top:20px" src="photo/reflection.jpg" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">Investigating How Crowd Incentives Affect Online Feedback Generation</b>
+                     <div><em>ACM DIS'16</em>, <em>ACM CHI'17</em> </div>
+                      <p id="project-content">Increasingly, users seek feedback on their creative work from social networks, Web forums, and paid task markets which demand different amounts of social capital, financial resources, and time. However, it is unclear how the choice of the crowd platform affects feedback generation. In this study, we recruited designers to create visual designs for problems of their own choosing and revised the designs based on the feedback received from MTurk (financial), designers’ own social networks accessed via Facebook, Twitter, and email (social), and Reddit or other Web forums (enjoyment). We measured key attributes of the feedback including perceived quality, quantity, length, and valence; and categorized its content. Based on the results, we formulate an emergent framework for recommending which crowd platforms to solicit feedback from and at which iteration to maximize attributes of interest including quality, quantity, content category, and valence</p>
+                    <p>
+                      <span class="badge badge-pill badge-success">online user study</span>
+                      <span class="badge badge-pill badge-info">between-subjects experiments</span>
+                      <span class="badge badge-pill badge-success">task analysis (logged data analysis)</span>
+                      <span class="badge badge-pill badge-success">survey</span>
+                      <span class="badge badge-pill badge-light">qualitative coding</span> 
+                      <span class="badge badge-pill badge-light">ANOVA + post-hoc tests</span>  
+                   </p>
+                  </td>
+              </tr>
+
+
+              <tr class="small" id="project-entry">
+                    <td>
+                    <a href="photo/smartward.png" target="_blank"><img style="margin-top:20px" src="photo/smartward.png" class="img-rounded center-block" width="100%"></a>
+                    <a href="photo/nursingcycle.jpg" target="_blank"><img style="margin-top:20px" src="photo/nursingcycle.jpg" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">An Empirical Study on Engineering a Real-World Smart Ward Using Pervasive Technologies</b>
+                     <div><em>ACM HCII'11</em>, <em>IEEE System Journal 2016</em>, <em>ACM ICOST'12</em> </div>
+                      <p id="project-content">The shortage of medical staffs has become a critical issue due to the rapid growth of aging population. Numerous attempts have been made on devising pervasive healthcare systems to precisely and continuously monitor patients’ health status. However, the transformation from prototypes in the laboratory to practical systems in a medical institution is still a challenging task. 
+                      </p>
+
+                      <p id="project-content">My master's thesis adopts an ethnography-like approach to probe system requirements. Specifically, I performed field observations at the real-world hospital for ten full working shifts (including day and night shifts). Based on my observations and recorded data, I conducted interviews with medical staff and performed a focus group session to confirm the insights generated from the field study. I then designed and deployed a smart ward aiming at revitalizing post-surgery elderly patients both in physical and mental factors. My thesis and follow-up studies report the progress and lessons learned from the six-month deployment of our healthcare system in a real-world smart ward of National Taiwan University Hospital. We describe techniques proposed to deal with three essential challenges: design for essential needs, design for user acceptance, and design for maintenance. The system is evaluated empirically by deploying two applications in the field. Based on the results of field interview and questionnaires, this work is a milestone of a persistently running pervasive healthcare system deployed in a hospital.</p>
+                      <i class="fa fa-trophy"></i> Awarded as the Best Master's Thesis in the Taiwanese Association of Artificial Intelligence 2011 
+                   </p>
+                  </td>
+              </tr>
+
+              <tr class="small" id="project-entry">
+                    <td>
+                    <a href="photo/hospital.png" target="_blank"><img style="margin-top:20px" src="photo/hospital.png" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">Human-Centric Situational Awareness in the Bedroom</b>
+                     <div><em>International Conference On Smart Living and Public Health 2011</em> </div>
+                      <p id="project-content">Monitoring bedroom activities is critical for elderly care. The risk of tripping increases at the moment when the elder people leave bed; dizziness condition may occur when they sit up from a long lying position. In addition, knowing the total time of caregivers being around may also imply the level of social engagement. However, bedroom is the place that requires the most privacy concern. In this work, we propose the use of ambient sensors and context fusion techniques to monitor five on-bed and bed-side activities including Sleeping, Sitting, Leaving Bed, Caregiver Around and Walking. Experimental results demonstrate the high promise of our proposed methods for bed-related situation awareness.</p>
+                    <p>
+                      <i class="fa fa-trophy"></i> This work results in Taiwan Patent ID: I486914 
+                   </p>
+                  </td>
+              </tr>
+          </table>
+      </div> 
+      
+      <div class="row my-auto ">
+              <div class="col-12">
+                <h3 class="">Other Projects</h3>
+              </div> 
+
+            <table class="table table-condensed" id='pub-table'> 
+         
+              <tr class="small" id="project-entry">
+                    <td>
+                    <a href="photo/cloze.png" target="_blank"><img style="margin-top:20px" src="photo/cloze.png" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">Cloud-based collaboratvie learning platform for computer science education</b>
+                     <div><em>National Science Concile.</em> </div>
+                      <p id="project-content">Before I joined UIUC, I led a NSC projects (Taiwan)studying and implementing cloud-based collaborative learning tools. I was the leading researcher and developer in the project. We built a cloud-based programming platform supporting cloze tasks that enhance the understanding of learning topics with multiple code segments. We also implemented in-time ask-for-help features allowing students to collaboratively learn with peers. 
+            </p></p>
+                  </td>
+              </tr>
+
+              <tr class="small" id="project-entry">
+                    <td>
+                    <a href="photo/565flow.png" target="_blank"><img style="margin-top:20px" src="photo/565flow.png" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">To Stop or Not to Stop? A Case Study of an Early  intervention for Data Collection</b>
+                      <p id="project-content">Deciding the sample size of a qualitative survey is a critical issue. Insufficient feedback might lose possible insights while too much feedback results in a waste of time and money. We addressed this problem by calculating the information saturation level and visualizing the evolution of main topics derived from feedback pool. We built an easy-to-use Web tool allowing Kickstarter project creators to collect feedback from Amazon Mechanical Turk. An interactive visualization was then presented to the creators to help them better understand the current dataset.</p>
+                      <div>[<a href="paper/cs565.pdf" target="_blank">CS565 Human-Computer Interaction final report</a>] </div>
+                  </td>
+              </tr>
+
+              <tr class="small" id="project-entry">
+                    <td>
+                    <a href="photo/ddd_project.png" target="_blank"><img style="margin-top:20px" src="photo/ddd_project.png" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">Brainstagram: Presenting Diverse  Visually Inspiring Stimuli for Creative  Design</b>
+                      <p id="project-content">In this project, we built a data-driven brainstorming tool leveraging Instagram hashtags to assist designers in finding inspiration. One challenge designers face when brainstorming is knowing how to search for unlikely sources of inspiration. We present Brainstagram, which organizes visual stimuli through tag co-occurrence to display related concepts. This allows users to easily navigate from relevant to unexpected images. Our pilot study demonstrates that Brainstagram as a potentially effective tool in the brainstorming process.</p>
+                      <div>[<a href="paper/brainstagram_paper.pdf" target="_blank">CS598 Data-Driven Design final report</a>] </div>
+                    <p>
+                   </p>
+                  </td>
+              </tr>
+
+               <tr class="small" id="project-entry">
+                    <td>
+                    <a href="photo/mobile.png" target="_blank"><img style="margin-top:20px" src="photo/mobile.png" class="img-rounded center-block" width="100%"></a>
+                  </td>
+                  <td><b id="project-title">Location-based Android Application</b>
+                     <div><em>International Conference On Smart Living and Public Health 2011</em> </div>
+                      <p id="project-content"> I founded a mobile app studio with three classmates before coming to UIUC. We created four location-based Android applications for backpackers to conveniently retrieve useful information during their trips (e.g. nearby gas station, police station). Each application was used by more than 500 users.</p>
+                    <p>
+                   </p>
+                  </td>
+              </tr>
+
+              </table>
+          </div>
+    
+    </section>
+
+    <!--====================================================
+                          CONTACT
+    ======================================================-->       
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+          <div class="row my-auto" id="contact"> 
+            <div class="col-md-8">
+              <div class="contact-cont">
+                <h3>CONTACT Us</h3>
+  
+              
+
+
+     
 
 
     </div>
 
 
-    <div class="row">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-
-            <p id="section-title">RESEARCH PROJECTS</p>
-        </div>
-    </div>
-
-    <div class="row" id="project-entry">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-
-        <div class="col-xs-4">
-
-            <a href="photo/crowd.png" target="_blank"><img style="margin-top:20px" src="photo/crowd.png" class="img-rounded center-block" width="100%"></a>
-        </div>
-        <div class="col-xs-8">      
-               <b id="project-title">Crowd-based Creativity Support Tool</b>
-               <div><em>2013- present</em></div>
-            <p id="project-content">Since I joined UIUC, my primary research has been to develop scalable methods to help designers effectively iterate their designs with online crowds. Within the scope, I studied crowd genres driven by different motivations including financial, social, and enjoyment incentives. I have conducted user study with 27 professional designers, 127 design students, and 90 everyday designers. Statistical tests and qualitative codings were applied to provide evidence of the impact of the user experience. Beyond feedback acquisition, I also explored methods to promote deeper feedback interpretation. [C.4, C.5, C.6]
-            </p>
-             <p><b>Keyword:</b> crowdsourcing, creative design process, reflection, design feedback, human-computer interaction</p>
-         </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-
-        <div class="col-xs-4">
-            <a href="photo/hospital.png" target="_blank"><img style="margin-top:40px" src="photo/hospital.png" class="img-rounded center-block" width="100%"></a>
-        </div>
-        <div class="col-xs-8">       
-        <b id="project-title">Human-centric Situation-Aware Healthcare System for Elderly People </b> 
-         <div><em>Intel-NTU Grant 2009-2011</em></div>    
-            <p id="project-content">I dedicated my master years to design and deploy a smart ward in National Taiwan University Hospital, one of the most heavy-loaded hospitals with high occupancy rate in Taiwan. The system inconspicuously and automatically monitors the activities of interest of the targeted users by continuously analyzing their real-life living patterns deduced from ambient sensors and activity recognition engine. Persuasive technology was also adopted to provide timely encouragements to suggest a better life style. [C.1, C.2, C.3, J.1, Taiwan Patent]
-            </p>
-             <p><b>Keyword:</b> healthcare, activity recognition, ubiqutous computing, persuasive technology, artificial intelligence, human-computer interaction</p>
-         </div>
-        </div>
-    </div>
 
 
 
-<div class="row">
-    <div class="col-xs-12 col-lg-8 offset-lg-2">   
-       <hr> 
-        <p id="section-title">OTHER PROJECTS</p>
-</div></div>
-
-    <div class="row">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-
-        <div class="col-xs-4">
-            <a href="photo/565flow.png" target="_blank"><img src="photo/565flow.png" class="img-rounded center-block" width="100%"></a>
-        </div>
-        <div class="col-xs-8">     
-            <b>To Stop or Not to Stop? A Case Study of an Early  intervention for Data Collection </b>       
-            <p id="project-content">Deciding the sample size of a qualitative survey is a critical issue. Insufficient feedback might lose possible insights while too much feedback results in a waste of time and money. We addressed this problem by calculating the information saturation level and visualizing the evolution of main topics derived from feedback pool. We built an easy-to-use Web tool allowing Kickstarter project creators to collect feedback from Amazon Mechanical Turk. An interactive visualization was then presented to the creators to help them better understand the current dataset. 
-            </p>
-
-         </div>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-
-        <div class="col-xs-4">
-            <a href="photo/ddd_project.png" target="_blank"><img src="photo/ddd_project.png" class="img-rounded center-block" width="100%"></a>
-        </div>
-        <div class="col-xs-8">     
-            <b>Brainstagram: Presenting Diverse  Visually Inspiring Stimuli for Creative  Design </b>       
-            <p id="project-content">We built a data-driven brainstorming tool leveraging Instagram hashtags to assist designers in finding inspiration. One challenge designers face when brainstorming is knowing how to search for unlikely sources of inspiration. We present Brainstagram, which organizes visual stimuli through tag co-occurrence to display related concepts. This allows users to easily navigate from relevant to unexpected images. Our pilot study demonstrates that Brainstagram as a potentially effective tool in the brainstorming process. 
-            </p>
-
-         </div>
-        </div>
-    </div>
 
 
 
-    <div class="row">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-
-        <div class="col-xs-4">
-           <a href="photo/cloze.png" target="_blank"> <img src="photo/cloze.png" class="img-rounded center-block" width="100%"></a>
-        </div>
-        <div class="col-xs-8">    
-        <b>Cloud-based collaboratvie programming learning tools </b>          
-        <b><em>Taiwan NSF Project</em></b>
-            <p id="project-content">Before I joined UIUC, I was invited back to NTNU to lead a Taiwan NSF projects studying and implementing cloud-based collaborative learning tools. I was the leading researcher and developer in the project. We built a cloud-based programming platform supporting cloze tasks that enhance the understanding of learning topics with multiple code segments. We also implemented in-time ask-for-help features allowing students to collaboratively learn with peers. 
-            </p>
-
-         </div>
-        </div>
-    </div>
+   
 
 
-    <div class="row" style="padding-top:40px">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
+    <!-- Global javascript -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/counter/jquery.waypoints.min.js"></script>
+    <script src="js/counter/jquery.counterup.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function(){
 
-        <div class="col-xs-4">
-             <a href="photo/mobile.png" target="_blank"><img src="photo/mobile.png" class="img-rounded center-block" width="100%"></a>
-        </div>
-        <div class="col-xs-8">        
-         <b>Location-based Android Application</b>        
-            <p id="project-content">
-               I founded a mobile app studio with three classmates before coming to UIUC. We created four location-based Android applications for backpackers to conveniently retrieve useful information during their trips (e.g. nearby gas station, police station). Each application was used by more than 500 users. 
-            </p>
-         </div>
-        </div>
+        $(".filter-b").click(function(){
+            var value = $(this).attr('data-filter');
+            if(value == "all")
+            { 
+                $('.filter').show('1000');
+            }
+            else
+            { 
+                $(".filter").not('.'+value).hide('3000');
+                $('.filter').filter('.'+value).show('3000');
+            }
+        });
+        
+        if ($(".filter-b").removeClass("active")) {
+          $(this).removeClass("active");
+        }
+        $(this).addClass("active");
+        });
 
-    </div>
+        // SKILLS
+        $(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
 
+        });
+    </script> 
+</body>
 
-
-    <div class="row">
-        <div class="col-xs-12 col-lg-8 offset-lg-2">  
-           <hr>  
-            <p id="section-title">TEACHING EXPERIENCE</p>
-    </div>
-    </div>
-
-
-<div class="col-xs-12 col-lg-8 offset-lg-2">  
-          <p><div><b>CS 465 User Interface Design,</b> Fall 2014, at UIUC</div>
-          <div>Project-based graduate level class teaching the principles of user interface design. </div></p>
-
-          <p><div><b>CS 565 Human Computer Interaction, </b>Spring 2015 and Spring 2017, at UIUC</div>
-          <div>Discussion-based graduate level class discussing on the topic of crowdsourcing and design. I mentored all the term projects. </div></p>
-
-          <p><div><b>Introduction to Web Design,</b> 2009 at SSCV High School, Taipei, Taiwan</div>
-          <div> I taught Web design as a practice teacher in a secondary school in Taiwan. [<a href="https://www.youtube.com/watch?v=Pn3k2SFdejQ&t=24s" target="_blank"> Video </a>] </div></p>
-
-</div>
-
-
-  </div>
-
-
-<footer  style="text-align: center;">
-            <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
-            Designed and developed by Yu-Chun (Grace) Yen. 
-             <p>@2018</p>
-    </footer>
-  </body>
 </html>
